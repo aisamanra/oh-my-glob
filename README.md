@@ -4,7 +4,7 @@ A library for file path globbing in Go, with specific support for the `**` const
 
 ```go
 path := "foo/bar/baz.txt"
-my_glob := = oh_my_glob.Compile("foo/**/*.txt")
+my_glob := oh_my_glob.Compile("foo/**/*.txt")
 if my_glob.Match() {
         // et cetera
 ```
